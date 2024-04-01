@@ -11,8 +11,9 @@ import ibis.expr.types as ir
 import pandas as pd
 import pyarrow as pa
 import pyarrow.dataset as ds
-from ibis.backends.base import BaseBackend, CanCreateSchema
-from ibis.backends.base.sqlglot import STAR
+from ibis import BaseBackend
+from ibis.backends import CanCreateSchema
+from ibis.backends.sql import STAR
 from sqlglot import exp, transforms
 from sqlglot.dialects import Postgres
 from sqlglot.dialects.dialect import rename_func

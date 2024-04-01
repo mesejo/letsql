@@ -35,7 +35,7 @@ packages = [
 [tool.poetry.dependencies]
 python = "^3.10"
 maturin = "^1.4.0"
-ibis-framework = "^7.2.0"
+ibis-framework = {git = "git@github.com:mesejo/ibis.git", rev = "feat/add-deferred-cache"}
 dask = "^2023.12.1"
 xgboost = ">=1.6.1"
 attrs = "^23.2.0"

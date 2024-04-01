@@ -6,7 +6,7 @@ import sqlglot as sg
 
 import ibis.common.exceptions as com
 import ibis.expr.operations as ops
-from ibis.backends.base.sqlglot import STAR
+from ibis.backends.sql import STAR
 
 
 @functools.singledispatch
